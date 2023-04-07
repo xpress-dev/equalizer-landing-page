@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Hero.module.css';
+import backgroundImage from '../assets/bg-pattern-1.svg';
 const Hero = () => {
   return (
     <section className={classes.hero}>
