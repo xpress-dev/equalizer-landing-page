@@ -3,7 +3,7 @@ header {
   display: flex;
   align-items: center;
   padding-left: 24px;
-  max-width: 592px;
+  max-width: 575px;
   margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@ header img {
 
 @media only screen and (min-width: 750px) {
   header {
-    max-width: 922px;
+    max-width: 905px;
     padding-left: 40px;
     height: 156px;
   }
@@ -22,19 +22,13 @@ header img {
 
 @media only screen and (min-width: 1050px) {
   header {
-    max-width: 1206px;
+    max-width: 1200px;
     padding-left: 45px;
   }
 }
 
 @media only screen and (min-width: 1207px) {
   header {
-    padding-left: 39px;
-  }
-}
-
-@media only screen and (min-width: 1446px) {
-  header {
-    padding-left: 40px;
+    padding-left: 45px;
   }
 }
