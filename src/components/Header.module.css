@@ -1,0 +1,40 @@
+header {
+  height: 112px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  max-width: 592px;
+  margin: 0 auto;
+}
+
+header img {
+  width: 146px;
+  height: 32px;
+}
+
+@media only screen and (min-width: 750px) {
+  header {
+    max-width: 922px;
+    padding-left: 40px;
+    height: 156px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  header {
+    max-width: 1206px;
+    padding-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 1207px) {
+  header {
+    padding-left: 39px;
+  }
+}
+
+@media only screen and (min-width: 1446px) {
+  header {
+    padding-left: 40px;
+  }
+}
