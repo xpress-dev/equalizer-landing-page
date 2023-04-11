@@ -67,6 +67,7 @@
 .price {
   display: flex;
   align-items: center;
+  margin-bottom: 7px;
 }
 
 .price span {
@@ -90,6 +91,11 @@ button {
   cursor: pointer;
   gap: 8px;
   transition: all 150ms ease-in-out;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .iOSDownload {
@@ -100,6 +106,12 @@ button {
   text-align: center;
   letter-spacing: -0.18px;
   color: #fcfaf9;
+}
+
+.iOSDownload img {
+  width: 17px;
+  height: 21px;
+  padding-bottom: 1px;
 }
 
 .iOSDownload:hover {
@@ -113,6 +125,13 @@ button {
   font-size: 18px;
   text-align: center;
   letter-spacing: -0.18px;
+  background-color: #fcfaf9;
+}
+
+.androidDownload img {
+  width: 17px;
+  height: 21px;
+  padding-bottom: 1px;
 }
 
 .androidDownload:hover {
@@ -122,8 +141,10 @@ button {
 
 @media only screen and (min-width: 750px) {
   .callToAction {
-    max-width: 905px;
-    margin: 212px 40px 390px 40px;
+    max-width: 825px;
+    margin: 212px auto 89px auto;
+    padding-left: 40px;
+    padding-right: 40px;
     width: auto;
   }
   .illustration {
@@ -150,7 +171,7 @@ button {
 @media only screen and (min-width: 1050px) {
   .callToAction {
     max-width: 1100px;
-    margin: 293px 33px 195px 33px;
+    margin: 293px auto 195px auto;
   }
   .illustration {
     width: 312px;
